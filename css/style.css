@@ -8,36 +8,69 @@ body {
     font-family: open sans-serif
 }
 
+/*header*/
 .nav-bar {
     background-color: #f6f6f6;
     Display: flex;
     justify-content: space-between;
     padding: 1rem;
-
 }
 
 .menu {
-
     display: flex;
     gap: 1rem;
-    list-style: none;
-    align-items: center
+    list-style: none;/*per togliere la grafica della lista*/
+    
+    align-items: center;
+}
+
+.button-blu {
+    
+    background-color: #048ffa;/*bottone repetibile*/
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;/* per togliere la linea dei testi*/
+    
+    color: black;/*colore del testo*/
+    
+}
+
+/*Main*/
+main {
+    background-color: #5f9ea0;
 }
 
 .hero {
-    background-color: #5f9ea0;
-   height: 500px;
-   
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px;
+    text-align: start;/*allinea il cotenuto*/
 }
-.title {
-    width: 90%;
-    text-align: center;
-    
-}
-.col1{
-width: 30%;
-}
-.col2 {
-    width: 60%;
 
+.hero h1 {
+    width: 100%;
+    font-size: 60px;
+}
+
+.col1 {
+    height: 100%;
+
+    font-size: 17px;
+    width: 30%;
+}
+
+.col2 {
+
+    width: 50%;
+
+}
+
+.col2 img {
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
 }
