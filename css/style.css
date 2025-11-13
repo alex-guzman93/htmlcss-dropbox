@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: open sans-serif
+}
+
+.nav-bar {
+    background-color: #f6f6f6;
+    Display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.menu {
+
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    align-items: center
+}
+
+.hero {
+    background-color: #5f9ea0;
+   height: 500px;
+   
+}
+.title {
+    width: 90%;
+    text-align: center;
+    
+}
+.col1{
+width: 30%;
+}
+.col2 {
+    width: 60%;
+
+}
